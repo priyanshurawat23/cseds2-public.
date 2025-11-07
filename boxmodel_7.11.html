@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>box</title>
+    <style>
+        html,body,*{
+            margin: 0px;
+            padding: 0px;
+        }
+        #main{
+            width: 500px;
+            height: 260px;
+            background-color: pink;
+            margin: 0px auto;
+            display: flex;
+            
+        }
+        #left{
+            width: 200px;
+            height: 260px;
+            background-color: plum;
+            margin-right: 20px;
+            
+        }
+        #right{
+            width: 280px;
+            height: 260px;
+            background-color: orchid;
+    
+        }
+     .rbox{
+             width: 280px;
+            height: 120px;
+            background-color: rgb(209, 89, 89);
+     }
+     .rbox:nth-child(1){
+        margin-bottom: 20px;
+     }
+        
+
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="left">
+
+    </div>
+
+    <div id="right">
+        <div class="rbox"></div>
+        <div class="rbox"></div>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
