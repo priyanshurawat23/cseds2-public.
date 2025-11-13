@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+    <title>css selectors</title>
+
+    <style>
+        #pushp p{
+            background-color: crimson;
+        }
+        #hi p{
+            background-color: aqua;
+        }
+        a:link{
+            font-size: 40px;
+        }
+        a:hover{
+            color: rgb(212, 18, 237);
+        }
+        a:active{
+            color: darkgreen;
+
+        }
+        #pushp p::first-letter{
+            font-size: 50px;
+        }
+        #pushp p::after{
+            content: "........readmore";
+            color: coral;
+            font-size: 20px;
+            
+        }
+    </style>
+    </head>
+    
+    <body>
+        <!-- css combinators -->
+         <div id="pushp"> <!--div first-->
+            <p>
+                1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia enim tempore laborum cumque ducimus facere, omnis possimus. Distinctio quo architecto error dolorum recusandae delectus tempora ipsa officiis aut, itaque repudiandae?
+
+            </p>
+            <p>
+                2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate nemo eaque vero provident. Et quod repellendus labore voluptatum, reprehenderit voluptatem assumenda nulla recusandae cum debitis provident dignissimos a velit? Ratione!
+            </p>
+            <div id="hi"> <!--inside first-->
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, incidunt nobis. Blanditiis sunt dolorum, ipsam sapiente optio vitae quae quod? Nemo officia tempore corrupti corporis eveniet ipsa sapiente ullam deleniti!
+                </p>
+            </div>
+        
+         </div>
+
+         <a href="https://www.youtube.com/" target="_blank">yt</a>
+
+         <p>
+            4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nam voluptatem, officia nostrum debitis, obcaecati repellendus deserunt facere, perspiciatis nobis repellat commodi vitae molestias eaque necessitatibus dolore rem. Atque, necessitatibus?
+         </p>
+    </body>
+
+</html>
