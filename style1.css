@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(205, 232, 116, 0.704);
+
+}
+p.c{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: right;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    text-shadow: red;
+    
+}
+p.b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: blue;
+
+}
+img{
+    border: 2px solid rgb(68, 163, 195);
+    border-radius: 20%;
+    float: right;
+    margin-left: 20px;
+    padding: 10px;
+
+}
